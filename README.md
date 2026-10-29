@@ -1,26 +1,5 @@
 # SK Licenser 🔐
 
-Professional licensing solution for Minecraft Skript addons. Enterprise-grade protection, zero compromise.
-
-## Features
-
-✨ **Core Features:**
-- 🔑 Cryptographic RSA-signed license validation (impossible to forge)
-- 🖥 Configurable concurrent server limits per license
-- ⚡ Instant license revocation in real-time
-- 📊 Built-in analytics and monitoring dashboard
-- 🛡 Protect your scripts from unauthorized use
-- 💳 Stripe integration for direct payments
-- 🔄 Automatic license creation on purchase
-
-✅ **What Makes It Different:**
-- Support for unlimited scripts (Based on plan)
-- Lifetime license keys that follow users between servers
-- IP tracking and allowlisting
-- Professional dashboard for complete control
-
----
-
 ## Installation
 
 ### Requirements
@@ -90,62 +69,6 @@ Each plan has different server limits:
 - **Lifetime**: Unlimited servers
 
 You can configure limits per license in the dashboard.
-
-### Monitoring Usage
-
-The dashboard shows:
-- ✅ Active licenses
-- 🖥 Licensed servers
-- 📊 Usage analytics
-- 💳 Subscription status
-- 🔄 License revocation history
-
----
-
-## Dashboard
-
-**Access your dashboard:** https://sk-license.vercel.app
-
-Features:
-- 📋 Manage projects and scripts
-- 🔑 Create and revoke license keys
-- 🖥 Monitor server usage
-- 📊 View analytics
-- 💳 Subscription management
-- 🛡 IP allowlisting
-
----
-
-## Pricing
-
-**Three subscription tiers:**
-
-| Feature | Basic | Professional | Lifetime |
-|---------|-------|--------------|----------|
-| Price | $3.99/mo | $5.99/mo | $59.99 |
-| Projects | Up to 3 | Unlimited | Unlimited |
-| Keys/Project | 50 | Unlimited | Unlimited |
-| Servers/License | 1 | Up to 5 | Unlimited |
-| Support | Community | Priority | VIP |
-
----
-
-## Troubleshooting
-
-### "License validation failed"
-- ✓ Check license key is correct
-- ✓ Verify server can reach license endpoint
-- ✓ Check internet connection
-
-### "Script not loading"
-- ✓ Check Skript syntax errors
-- ✓ Verify all imports at top of file
-- ✓ Check console for detailed errors
-
-### "Connection refused"
-- ✓ Verify license server URL in config
-- ✓ Check firewall settings
-- ✓ Test with `ping` command
 
 ### Still having issues?
 Join our **Discord Support Server**: https://discord.gg/ycH5uuzNN8
